@@ -4,12 +4,14 @@
         <id>SSH.NET</id>
         <version>$version$</version>
         <title>SSH.NET</title>
-        <authors>Renci</authors>
+        <authors>Renci.SshNet featuring Maurizio Macagno</authors>
         <owners>olegkap,drieseng</owners>
         <licenseUrl>https://github.com/sshnet/SSH.NET/blob/master/LICENSE</licenseUrl>
-        <projectUrl>https://github.com/sshnet/SSH.NET/</projectUrl>
+        <projectUrl>https://github.com/mmacagno/SSH.NET/</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <description>SSH.NET is a Secure Shell (SSH) library for .NET, optimized for parallelism and with broad framework support.</description>
+        <description>
+          SSH.NET is a Secure Shell (SSH) library for .NET, optimized for parallelism.
+          This is a fork from original repository with explicit .NET Core 3.1 and .NET 5.0 flavors, to overcome a dotnet core runtime issue when using the .NET standard library.</description>
         <releaseNotes>https://github.com/sshnet/SSH.NET/releases/tag/$version$</releaseNotes>
         <summary>A Secure Shell (SSH) library for .NET, optimized for parallelism.</summary>
         <copyright>$copyright$</copyright>
